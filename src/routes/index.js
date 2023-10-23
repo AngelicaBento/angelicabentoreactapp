@@ -1,7 +1,7 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import HomeScreen from "../screens/HomeScreen";
 import Body from './../components/Body';
-import ContatoScreen from "../screens/ContatoScreen";
+//import ContatoScreen from "../screens/ContatoScreen";
 
 export default function RouterRoot() {
     return (
