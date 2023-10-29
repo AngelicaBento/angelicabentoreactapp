@@ -5,7 +5,10 @@ export default function Header() {
     <div>
       <nav className="navbar navbar-expand-lg bg-body-tertiary">
         <div className="container">
-          <h4>Blog Sem Rota Definida</h4>
+        <div class="">
+          <img src="https://i.postimg.cc/HL4PkLPF/Logo.png" alt="" />
+        </div>
+          <h4>Viajar é trocar a roupa da nossa alma ♥</h4>
           <div
             className="collapse navbar-collapse ms-md-auto justify-content-end"
             id="navbarNav"
@@ -14,6 +17,21 @@ export default function Header() {
               <li className="nav-item">
                 <Link to="/" className="nav-link">
                   Página Inicial
+                </Link>
+              </li>
+              <li className="nav-item">
+                <Link to="/sobre" className="nav-link">
+                  Sobre
+                </Link>
+              </li>
+              <li className="nav-item">
+                <Link to="/dicas" className="nav-link">
+                  Dicas
+                </Link>
+              </li>
+              <li className="nav-item">
+                <Link to="/trips" className="nav-link">
+                  Trips ♥
                 </Link>
               </li>
               <li className="nav-item">
