@@ -5,10 +5,10 @@ export default function Header() {
     <div>
       <nav className="navbar navbar-expand-lg bg-body-tertiary">
         <div className="container">
-        <div class="">
-          <img src="https://i.postimg.cc/HL4PkLPF/Logo.png" alt="" />
-        </div>
-          <h4>Viajar é trocar a roupa da nossa alma ♥</h4>
+          <div class="">
+            <img src="https://i.postimg.cc/HL4PkLPF/Logo.png" alt="" />
+          </div>
+
           <div
             className="collapse navbar-collapse ms-md-auto justify-content-end"
             id="navbarNav"
